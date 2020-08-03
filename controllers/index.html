@@ -1509,7 +1509,7 @@
 
 <span class="c1">-- Server service:</span>
 <span class="kr">function</span> <span class="nc">CustomService</span><span class="p">:</span><span class="nf">Start</span><span class="p">()</span>
-    <span class="n">self</span><span class="p">.</span><span class="n">Services</span><span class="p">:</span><span class="n">ConnectClientEvent</span><span class="p">(</span><span class="s2">&quot;Hello&quot;</span><span class="p">,</span> <span class="kr">function</span><span class="p">(</span><span class="n">player</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+    <span class="n">self</span><span class="p">:</span><span class="n">ConnectClientEvent</span><span class="p">(</span><span class="s2">&quot;Hello&quot;</span><span class="p">,</span> <span class="kr">function</span><span class="p">(</span><span class="n">player</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">player</span><span class="p">.</span><span class="n">Name</span> <span class="o">..</span> <span class="s2">&quot; says: &quot;</span> <span class="o">..</span> <span class="n">msg</span><span class="p">)</span>
     <span class="kr">end</span><span class="p">)</span>
 <span class="kr">end</span>
