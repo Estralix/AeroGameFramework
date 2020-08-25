@@ -11,23 +11,23 @@
         <meta name="description" content="Documentation for the AeroGameFramework">
       
       
-        <link rel="canonical" href="https://sleitnick.github.io/AeroGameFramework/module_docs/server_modules/data/">
+        <link rel="canonical" href="https://sleitnick.github.io/AeroGameFramework/settings/">
       
       
         <meta name="author" content="Stephen Leitnick">
       
-      <link rel="shortcut icon" href="../../../img/logo_32.png">
+      <link rel="shortcut icon" href="../img/logo_32.png">
       <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.2.0">
     
     
       
-        <title>Data - AeroGameFramework</title>
+        <title>Settings - AeroGameFramework</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.18ac144a.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.18ac144a.min.css">
       
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.616af814.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.616af814.min.css">
       
       
         
@@ -62,6 +62,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#settings" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -71,7 +76,7 @@
   <nav class="md-header-nav md-grid" aria-label="Header">
     <a href="https://sleitnick.github.io/AeroGameFramework/" title="AeroGameFramework" class="md-header-nav__button md-logo" aria-label="AeroGameFramework">
       
-  <img src="../../../img/logo_64.png" alt="logo">
+  <img src="../img/logo_64.png" alt="logo">
 
     </a>
     <label class="md-header-nav__button md-icon" for="__drawer">
@@ -85,7 +90,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Data
+              Settings
             
           </span>
         </div>
@@ -144,7 +149,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="https://sleitnick.github.io/AeroGameFramework/" title="AeroGameFramework" class="md-nav__button md-logo" aria-label="AeroGameFramework">
       
-  <img src="../../../img/logo_64.png" alt="logo">
+  <img src="../img/logo_64.png" alt="logo">
 
     </a>
     AeroGameFramework
@@ -158,7 +163,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../.." title="Home" class="md-nav__link">
+    <a href=".." title="Home" class="md-nav__link">
       Home
     </a>
   </li>
@@ -170,7 +175,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../install/" title="Install & Setup" class="md-nav__link">
+    <a href="../install/" title="Install & Setup" class="md-nav__link">
       Install & Setup
     </a>
   </li>
@@ -182,7 +187,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../services/" title="Services" class="md-nav__link">
+    <a href="../services/" title="Services" class="md-nav__link">
       Services
     </a>
   </li>
@@ -194,7 +199,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../controllers/" title="Controllers" class="md-nav__link">
+    <a href="../controllers/" title="Controllers" class="md-nav__link">
       Controllers
     </a>
   </li>
@@ -206,20 +211,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../modules/" title="Modules" class="md-nav__link">
+    <a href="../modules/" title="Modules" class="md-nav__link">
       Modules
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="../../../execution_model/" title="Execution Model" class="md-nav__link">
-      Execution Model
     </a>
   </li>
 
@@ -231,18 +224,130 @@
   
 
 
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--active">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
-    <label class="md-nav__link" for="nav-7">
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Settings
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Settings" class="md-nav__link md-nav__link--active">
+      Settings
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#settings-module" class="md-nav__link">
+    Settings Module
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#third-party-modules" class="md-nav__link">
+    Third-Party Modules
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-depth" class="md-nav__link">
+    In-Depth
+  </a>
+  
+    <nav class="md-nav" aria-label="In-Depth">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#order" class="md-nav__link">
+    Order
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preventinit" class="md-nav__link">
+    PreventInit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preventstart" class="md-nav__link">
+    PreventStart
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standalone" class="md-nav__link">
+    Standalone
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../execution_model/" title="Execution Model" class="md-nav__link">
+      Execution Model
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+    
+    <label class="md-nav__link" for="nav-8">
       Module Docs
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Module Docs" data-md-level="1">
-      <label class="md-nav__title" for="nav-7">
+      <label class="md-nav__title" for="nav-8">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -255,21 +360,19 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7-1" type="checkbox" id="nav-7-1" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-1" type="checkbox" id="nav-8-1">
     
-    <label class="md-nav__link" for="nav-7-1">
+    <label class="md-nav__link" for="nav-8-1">
       Server
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Server" data-md-level="2">
-      <label class="md-nav__title" for="nav-7-1">
+      <label class="md-nav__title" for="nav-8-1">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -285,60 +388,16 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7-1-1" type="checkbox" id="nav-7-1-1">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-1-1" type="checkbox" id="nav-8-1-1">
     
-    <label class="md-nav__link" for="nav-7-1-1">
-      Services
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
-    </label>
-    <nav class="md-nav" aria-label="Services" data-md-level="3">
-      <label class="md-nav__title" for="nav-7-1-1">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
-        Services
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../server_services/store_service/" title="StoreService" class="md-nav__link">
-      StoreService
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-    
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7-1-2" type="checkbox" id="nav-7-1-2" checked>
-    
-    <label class="md-nav__link" for="nav-7-1-2">
+    <label class="md-nav__link" for="nav-8-1-1">
       Modules
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Modules" data-md-level="3">
-      <label class="md-nav__title" for="nav-7-1-2">
+      <label class="md-nav__title" for="nav-8-1-1">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -351,18 +410,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-    <a href="./" title="Data" class="md-nav__link md-nav__link--active">
-      Data
+  <li class="md-nav__item">
+    <a href="../module_docs/server_modules/profile_service/" title="ProfileService" class="md-nav__link">
+      ProfileService
     </a>
-    
   </li>
 
         
@@ -383,16 +435,16 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7-2" type="checkbox" id="nav-7-2">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-2" type="checkbox" id="nav-8-2">
     
-    <label class="md-nav__link" for="nav-7-2">
+    <label class="md-nav__link" for="nav-8-2">
       Client
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Client" data-md-level="2">
-      <label class="md-nav__title" for="nav-7-2">
+      <label class="md-nav__title" for="nav-8-2">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -408,16 +460,16 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7-2-1" type="checkbox" id="nav-7-2-1">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-2-1" type="checkbox" id="nav-8-2-1">
     
-    <label class="md-nav__link" for="nav-7-2-1">
+    <label class="md-nav__link" for="nav-8-2-1">
       Controllers
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Controllers" data-md-level="3">
-      <label class="md-nav__title" for="nav-7-2-1">
+      <label class="md-nav__title" for="nav-8-2-1">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -432,7 +484,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../client_controllers/user_input/" title="UserInput" class="md-nav__link">
+    <a href="../module_docs/client_controllers/user_input/" title="UserInput" class="md-nav__link">
       UserInput
     </a>
   </li>
@@ -445,16 +497,16 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7-2-1-2" type="checkbox" id="nav-7-2-1-2">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-2-1-2" type="checkbox" id="nav-8-2-1-2">
     
-    <label class="md-nav__link" for="nav-7-2-1-2">
+    <label class="md-nav__link" for="nav-8-2-1-2">
       UserInput (modules)
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="UserInput (modules)" data-md-level="4">
-      <label class="md-nav__title" for="nav-7-2-1-2">
+      <label class="md-nav__title" for="nav-8-2-1-2">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -469,7 +521,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../client_controllers/user_inputs/mouse/" title="Mouse" class="md-nav__link">
+    <a href="../module_docs/client_controllers/user_inputs/mouse/" title="Mouse" class="md-nav__link">
       Mouse
     </a>
   </li>
@@ -481,7 +533,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../client_controllers/user_inputs/keyboard/" title="Keyboard" class="md-nav__link">
+    <a href="../module_docs/client_controllers/user_inputs/keyboard/" title="Keyboard" class="md-nav__link">
       Keyboard
     </a>
   </li>
@@ -493,7 +545,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../client_controllers/user_inputs/gamepad/" title="Gamepad" class="md-nav__link">
+    <a href="../module_docs/client_controllers/user_inputs/gamepad/" title="Gamepad" class="md-nav__link">
       Gamepad
     </a>
   </li>
@@ -505,7 +557,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../client_controllers/user_inputs/mobile/" title="Mobile" class="md-nav__link">
+    <a href="../module_docs/client_controllers/user_inputs/mobile/" title="Mobile" class="md-nav__link">
       Mobile
     </a>
   </li>
@@ -522,7 +574,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../client_controllers/fade/" title="Fade" class="md-nav__link">
+    <a href="../module_docs/client_controllers/fade/" title="Fade" class="md-nav__link">
       Fade
     </a>
   </li>
@@ -534,7 +586,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../client_controllers/task_scheduler/" title="TaskScheduler" class="md-nav__link">
+    <a href="../module_docs/client_controllers/task_scheduler/" title="TaskScheduler" class="md-nav__link">
       TaskScheduler
     </a>
   </li>
@@ -552,16 +604,16 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7-2-2" type="checkbox" id="nav-7-2-2">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-2-2" type="checkbox" id="nav-8-2-2">
     
-    <label class="md-nav__link" for="nav-7-2-2">
+    <label class="md-nav__link" for="nav-8-2-2">
       Modules
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Modules" data-md-level="3">
-      <label class="md-nav__title" for="nav-7-2-2">
+      <label class="md-nav__title" for="nav-8-2-2">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -576,7 +628,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../client_modules/camera_shaker/" title="CameraShaker" class="md-nav__link">
+    <a href="../module_docs/client_modules/camera_shaker/" title="CameraShaker" class="md-nav__link">
       CameraShaker
     </a>
   </li>
@@ -588,7 +640,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../client_modules/smooth/" title="Smooth" class="md-nav__link">
+    <a href="../module_docs/client_modules/smooth/" title="Smooth" class="md-nav__link">
       Smooth
     </a>
   </li>
@@ -600,7 +652,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../client_modules/tween/" title="Tween" class="md-nav__link">
+    <a href="../module_docs/client_modules/tween/" title="Tween" class="md-nav__link">
       Tween
     </a>
   </li>
@@ -612,7 +664,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../client_modules/pid/" title="PID" class="md-nav__link">
+    <a href="../module_docs/client_modules/pid/" title="PID" class="md-nav__link">
       PID
     </a>
   </li>
@@ -635,16 +687,16 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7-3" type="checkbox" id="nav-7-3">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-3" type="checkbox" id="nav-8-3">
     
-    <label class="md-nav__link" for="nav-7-3">
+    <label class="md-nav__link" for="nav-8-3">
       Shared Modules
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Shared Modules" data-md-level="2">
-      <label class="md-nav__title" for="nav-7-3">
+      <label class="md-nav__title" for="nav-8-3">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -659,7 +711,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../shared/base64/" title="Base64" class="md-nav__link">
+    <a href="../module_docs/shared/base64/" title="Base64" class="md-nav__link">
       Base64
     </a>
   </li>
@@ -671,7 +723,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../shared/date/" title="Date" class="md-nav__link">
+    <a href="../module_docs/shared/date/" title="Date" class="md-nav__link">
       Date
     </a>
   </li>
@@ -683,19 +735,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../shared/event/" title="Event" class="md-nav__link">
-      Event
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../shared/listener_list/" title="ListenerList" class="md-nav__link">
+    <a href="../module_docs/shared/listener_list/" title="ListenerList" class="md-nav__link">
       ListenerList
     </a>
   </li>
@@ -707,7 +747,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../shared/maid/" title="Maid" class="md-nav__link">
+    <a href="../module_docs/shared/maid/" title="Maid" class="md-nav__link">
       Maid
     </a>
   </li>
@@ -719,7 +759,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../shared/number_util/" title="NumberUtil" class="md-nav__link">
+    <a href="../module_docs/shared/number_util/" title="NumberUtil" class="md-nav__link">
       NumberUtil
     </a>
   </li>
@@ -731,7 +771,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../shared/promise/" title="Promise" class="md-nav__link">
+    <a href="../module_docs/shared/promise/" title="Promise" class="md-nav__link">
       Promise
     </a>
   </li>
@@ -743,7 +783,19 @@
 
 
   <li class="md-nav__item">
-    <a href="../../shared/string_util/" title="StringUtil" class="md-nav__link">
+    <a href="../module_docs/shared/signal/" title="Signal" class="md-nav__link">
+      Signal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../module_docs/shared/string_util/" title="StringUtil" class="md-nav__link">
       StringUtil
     </a>
   </li>
@@ -755,7 +807,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../shared/table_util/" title="TableUtil" class="md-nav__link">
+    <a href="../module_docs/shared/table_util/" title="TableUtil" class="md-nav__link">
       TableUtil
     </a>
   </li>
@@ -767,7 +819,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../shared/thread/" title="Thread" class="md-nav__link">
+    <a href="../module_docs/shared/thread/" title="Thread" class="md-nav__link">
       Thread
     </a>
   </li>
@@ -779,7 +831,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../shared/vector_util/" title="VectorUtil" class="md-nav__link">
+    <a href="../module_docs/shared/vector_util/" title="VectorUtil" class="md-nav__link">
       VectorUtil
     </a>
   </li>
@@ -802,6 +854,86 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#settings-module" class="md-nav__link">
+    Settings Module
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#third-party-modules" class="md-nav__link">
+    Third-Party Modules
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-depth" class="md-nav__link">
+    In-Depth
+  </a>
+  
+    <nav class="md-nav" aria-label="In-Depth">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#order" class="md-nav__link">
+    Order
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preventinit" class="md-nav__link">
+    PreventInit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preventstart" class="md-nav__link">
+    PreventStart
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standalone" class="md-nav__link">
+    Standalone
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -811,9 +943,79 @@
                   
                 
                 
-                  <h1>Data</h1>
-                
-                <p>Coming soon</p>
+                <h1 id="settings">Settings<a class="headerlink" href="#settings" title="Permanent link">&para;</a></h1>
+<p>In some scenarios, it is useful to override the default AGF behavior on modules, such as preventing the framework from invoking <code>Start</code> or <code>Init</code>. This can be done by creating a <code>.settings</code> ModuleScript alongside the service, controller, or module.</p>
+<hr />
+<h2 id="settings-module">Settings Module<a class="headerlink" href="#settings-module" title="Permanent link">&para;</a></h2>
+<p>For instance, if there is a controller named <code>MyController</code>, its accompanying settings file would be named <code>MyController.settings</code>.</p>
+<p>Each settings file should return a table like shown:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="kr">return</span> <span class="p">{</span>
+    <span class="n">Order</span> <span class="o">=</span> <span class="mi">1000</span><span class="p">;</span>
+    <span class="n">PreventInit</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+    <span class="n">PreventStart</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+    <span class="n">Standalone</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+
+<p>The fields above are defined as such:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Order</td>
+<td><code>1000</code></td>
+<td>The <code>Init</code> execution order for services and controllers</td>
+</tr>
+<tr>
+<td>PreventInit</td>
+<td><code>false</code></td>
+<td>Will prevent calling <code>Init</code> on any module with this field as <code>true</code> (does not apply to services/controllers)</td>
+</tr>
+<tr>
+<td>PreventStart</td>
+<td><code>false</code></td>
+<td>Will prevent calling <code>Start</code> on any module with this field as <code>true</code> (does not apply to services/controllers)</td>
+</tr>
+<tr>
+<td>Standalone</td>
+<td><code>false</code></td>
+<td>Will treat a module as a plain standalone module and won't inject any AGF information (useful for third-party modules)</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Each field is optional. If the field is not provided, or if no <code>.settings</code> module is found, then the default values will be used instead.</p>
+</div>
+<hr />
+<h2 id="third-party-modules">Third-Party Modules<a class="headerlink" href="#third-party-modules" title="Permanent link">&para;</a></h2>
+<p>When using third-party modules within AGF, it is recommended to use <code>Standalone</code> mode. To do this, make an accompanying <code>.settings</code> file (e.g. <code>DataStore2.settings</code> or <code>Rojo.settings</code>) with the following configuration:</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="kr">return</span> <span class="p">{</span><span class="n">Standalone</span> <span class="o">=</span> <span class="kc">true</span><span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+
+<hr />
+<h2 id="in-depth">In-Depth<a class="headerlink" href="#in-depth" title="Permanent link">&para;</a></h2>
+<h3 id="order">Order<a class="headerlink" href="#order" title="Permanent link">&para;</a></h3>
+<p>The execution order for <code>Init</code> within services and controllers. By default, this is set to <code>1000</code>. This number is simply utilized to sort the services/controllers before invoking each <code>Init</code> method, so any valid number within Lua can be used. In most scenarios, the execution order will not matter and this setting can be ignored. In some other edge-cases, it's crucial for certain modules to be initialized before others. In such edge-cases, this setting should be used to guarantee order.</p>
+<h3 id="preventinit">PreventInit<a class="headerlink" href="#preventinit" title="Permanent link">&para;</a></h3>
+<p>This flag will allow the <code>Init</code> method to be skipped within modules. This will <em>not</em> work for services or controllers. The purpose of this flag is to allow third-party modules to tie into AGF that might already have an <code>Init</code> method for other purposes. This value should be either <code>true</code> or <code>false</code>. The default value is <code>false</code>.</p>
+<h3 id="preventstart">PreventStart<a class="headerlink" href="#preventstart" title="Permanent link">&para;</a></h3>
+<p>This flag will allow the <code>Start</code> method to be skipped within modules. This will <em>not</em> work for services or controllers. The purpose of this flag is to allow third-party modules to tie into AGF that might already have an <code>Start</code> method for other purposes. This value should be either <code>true</code> or <code>false</code>. The default value is <code>false</code>.</p>
+<h3 id="standalone">Standalone<a class="headerlink" href="#standalone" title="Permanent link">&para;</a></h3>
+<p>This flag will prevent AGF from wrapping the module with the AGF metatable. This should be used when using third-party modules such as DataStore2 and Rojo.</p>
                 
               
               
@@ -832,7 +1034,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../../server_services/store_service/" title="StoreService" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../modules/" title="Modules" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -841,19 +1043,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                StoreService
+                Modules
               </div>
             </div>
           </a>
         
         
-          <a href="../../client_controllers/user_input/" title="UserInput" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../execution_model/" title="Execution Model" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                UserInput
+                Execution Model
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
@@ -893,15 +1095,15 @@
       
     </div>
     
-      <script src="../../../assets/javascripts/vendor.d710d30a.min.js"></script>
-      <script src="../../../assets/javascripts/bundle.5f27aba8.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../assets/javascripts/vendor.d710d30a.min.js"></script>
+      <script src="../assets/javascripts/bundle.5f27aba8.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
-          base: "../../..",
+          base: "..",
           features: [],
           search: Object.assign({
-            worker: "../../../assets/javascripts/worker/search.27c6a5e6.min.js"
+            worker: "../assets/javascripts/worker/search.27c6a5e6.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
