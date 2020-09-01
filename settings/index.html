@@ -1001,7 +1001,7 @@
 </div>
 <hr />
 <h2 id="third-party-modules">Third-Party Modules<a class="headerlink" href="#third-party-modules" title="Permanent link">&para;</a></h2>
-<p>When using third-party modules within AGF, it is recommended to use <code>Standalone</code> mode. To do this, make an accompanying <code>.settings</code> file (e.g. <code>DataStore2.settings</code> or <code>Rojo.settings</code>) with the following configuration:</p>
+<p>When using third-party modules within AGF, it is recommended to use <code>Standalone</code> mode. To do this, make an accompanying <code>.settings</code> file (e.g. <code>DataStore2.settings</code> or <code>Roact.settings</code>) with the following configuration:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="kr">return</span> <span class="p">{</span><span class="n">Standalone</span> <span class="o">=</span> <span class="kc">true</span><span class="p">}</span>
 </code></pre></div>
 </td></tr></table>
@@ -1015,7 +1015,7 @@
 <h3 id="preventstart">PreventStart<a class="headerlink" href="#preventstart" title="Permanent link">&para;</a></h3>
 <p>This flag will allow the <code>Start</code> method to be skipped within modules. This will <em>not</em> work for services or controllers. The purpose of this flag is to allow third-party modules to tie into AGF that might already have an <code>Start</code> method for other purposes. This value should be either <code>true</code> or <code>false</code>. The default value is <code>false</code>.</p>
 <h3 id="standalone">Standalone<a class="headerlink" href="#standalone" title="Permanent link">&para;</a></h3>
-<p>This flag will prevent AGF from wrapping the module with the AGF metatable. This should be used when using third-party modules such as DataStore2 and Rojo.</p>
+<p>This flag will prevent AGF from wrapping the module with the AGF metatable. This should be used when using third-party modules such as DataStore2 and Roact.</p>
                 
               
               
